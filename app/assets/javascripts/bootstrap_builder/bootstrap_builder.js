@@ -1,5 +1,5 @@
 // Reset the state of the submit button
-$(document).ready(function() {
+$(document).ready(() => {
   $('input[type=submit].btn.change_to_text').show();
   $('.submit_text').hide();
 });
